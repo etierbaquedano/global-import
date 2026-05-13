@@ -3,30 +3,132 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Global Import</title>
+  <title>GlobalImport S.A.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
     <nav class="navbar">
-      <a class="brand" href="#">MiMarca</a>
+      <a class="brand" href="#hero">GlobalImport S.A.</a>
+      <button class="nav-toggle" aria-label="Abrir navegación">☰</button>
       <ul class="nav-links">
         <li><a href="#hero">Inicio</a></li>
-        <li><a href="#features">Características</a></li>
+        <li><a href="#services">Servicios</a></li>
+        <li><a href="#why-us">Por qué elegirnos</a></li>
         <li><a href="#contact">Contacto</a></li>
+        <li><a class="register-link" href="registro.html">Registro</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
     <section id="hero" class="hero-section">
+      <div class="hero-overlay"></div>
       <div class="hero-content">
-        <p class="hero-pretitle">Bienvenido a Global Import</p>
-        <h1>Construye tu presencia en línea con estilo</h1>
-        <p class="hero-text">Una estructura simple y clara para empezar tu proyecto web con un navbar responsivo y un área principal de presentación.</p>
-        <a class="hero-button" href="#features">Ver características</a>
+        <p class="hero-pretitle">Importación global confiable</p>
+        <h1>Soluciones de comercio internacional para tu negocio</h1>
+        <p class="hero-text">En GlobalImport S.A. coordinamos importaciones de electrónica, indumentaria, artículos del hogar y logística con rapidez, seguridad y atención personalizada.</p>
+        <div class="hero-actions">
+          <a class="hero-button" href="#services">Ver servicios</a>
+          <a class="hero-secondary" href="registro.html">Registrarse</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="section-intro">
+        <span class="section-label">Servicios</span>
+        <h2>Qué ofrecemos</h2>
+        <p>Descubre nuestras soluciones integrales para importación, distribución y compras internacionales.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon">📱</div>
+          <h3>Importación de Electrónica</h3>
+          <p>Traemos los últimos dispositivos y componentes con procesos ágiles, control de calidad y desembarque seguro para tu inventario.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">👗</div>
+          <h3>Importación de Indumentaria</h3>
+          <p>Seleccionamos proveedores confiables de moda y accesorios, gestionando el despacho y la documentación hasta la entrega final.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>Artículos del Hogar</h3>
+          <p>Importamos muebles, decoración y equipamiento para el hogar con atención a tiempos de entrega y embalaje seguro.</p>
+        </article>
+         <article class="service-card">
+          <div class="service-icon">🎮</div>
+          <h3>Importación de tecnologia gaming</h3>
+          <p>Equipos y accesorios para gaming de última generación.Trabajamos con marcas líderes para que tu experiencia sea completa.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>importaciones de Repuestos automotrices</h3>
+          <p>Componentes y accesorios para todo tipo de vehículos. Calidad certificada para mantenimiento seguro y eficiente.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🚚</div>
+          <h3>Logística y Distribución</h3>
+          <p>Coordinamos transporte, almacenaje y distribución nacional para que tus productos lleguen a destino sin demoras.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="why-us" class="section why-us-section">
+      <div class="section-intro">
+        <span class="section-label">Confianza</span>
+        <h2>¿Por qué elegir GlobalImport?</h2>
+        <p>Nuestro enfoque combina experiencia, cobertura global y atención personalizada para que tu comercio internacional sea eficiente y seguro.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">✅</div>
+          <h3>Experiencia comprobada</h3>
+          <p>Más de 10 años gestionando importaciones y operaciones comerciales para pymes y grandes clientes.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🌐</div>
+          <h3>Red internacional</h3>
+          <p>Proveedores y socios logísticos confiables en América, Europa y Asia para una cadena de suministro sólida.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">💼</div>
+          <h3>Atención personalizada</h3>
+          <p>Asesoramos cada proyecto de importación según tu rubro, volúmenes y plazos, con comunicación clara durante todo el proceso.</p>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-content">
+      <div>
+        <p class="footer-brand">GlobalImport S.A.</p>
+        <p>© 2026 GlobalImport S.A. Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-links">
+        <p>Contacto</p>
+        <a href="mailto:contacto@globalimport.com">contacto@globalimport.com</a>
+        <a href="tel:+5491123456789">+54 9 11 2345 6789</a>
+      </div>
+      <div class="footer-social">
+        <p>Síguenos</p>
+        <div class="social-icons">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    navToggle?.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
 </body>
 </html>
